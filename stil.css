@@ -20,7 +20,7 @@
 	clear: both;
 }
 
-h2, h1 {
+h2{
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	color: darkred;
 }
@@ -41,7 +41,14 @@ h3 {
 	color: darkblue;
 }
 
-
+@font-face{
+	font-family:"JakovBaric";
+	src: url("JakovBaric.ttf");
+}
+h1{
+	font-family: "JakovBaric";
+	color: darkred;
+}
 
 
 
